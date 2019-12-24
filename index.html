@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Kalle Anka Bingo</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="grey lighten-5">
+    <nav class="navbar navbar-expand-lg navbar-dark indigo">
+        <a class="navbar-brand" href="#">Kalle Anka Bingo</a>
+          <ul class="navbar-nav ml-auto nav-flex-icons">
+              <li class="nav-item mx-2">
+                <a class="nav-link waves-effect waves-light" data-toggle="modal" data-target="#Modal">
+                  <i class="fas fa-info-circle"></i>
+                </a>
+              </li>
+              <li onClick="window.location.reload();" class="nav-item mx-2">
+                <a class="nav-link waves-effect waves-light">
+                  <i class="fas fa-redo-alt"></i>
+                </a>
+              </li>
+            </ul>
+      </nav>
+<div class="container-fluid">
+  <table class="table table-sm table-bordered mt-2">
+    <tbody class="text-center">
+      <tr>
+        <td id="1">1</td>
+        <td id="2">2</td>
+        <td id="3">3</td>
+        <td id="4">4</td>
+        <td id="5">5</td>
+      </tr>
+      <tr>
+        <td id="6">6</td>
+        <td id="7">7</td>
+        <td id="8">8</td>
+        <td id="9">9</td>
+        <td id="10">10</td>
+      </tr>
+      <tr>
+        <td id="11">11</td>
+        <td id="12">12</td>
+        <td id="13">13</td>
+        <td id="14">14</td>
+        <td id="15">15</td>
+      </tr>
+      <tr>
+        <td id="16">16</td>
+        <td id="17">17</td>
+        <td id="18">18</td>
+        <td id="18">19</td>
+        <td id="20">20</td>
+      </tr>
+      <tr>
+        <td id="21">21</td>
+        <td id="22">22</td>
+        <td id="23">23</td>
+        <td id="24">24</td>
+        <td id="25">25</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+ 
+<div class="container-fluid">
+  <table class="table table-sm">
+    <thead>
+      <tr>
+        <th style="width: 40px;" class="text-center" scope="col">#</th>
+        <th scope="col">Påståenden</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr onclick="$( '#1' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">1.</th>
+        <td id="text1"></td>
+      </tr>
+      <tr onclick="$( '#2' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">2.</th>
+        <td id="text2"></td>
+      </tr>
+      <tr onclick="$( '#3' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">3.</th>
+        <td id="text3"></td>
+      </tr>
+      <tr onclick="$( '#4' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">4.</th>
+        <td id="text4"></td>
+      </tr>
+      <tr onclick="$( '#5' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">5.</th>
+        <td id="text5"></td>
+      </tr>
+      <tr onclick="$( '#6' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">6.</th>
+        <td id="text6"></td>
+      </tr>
+      <tr onclick="$( '#7' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">7.</th>
+        <td id="text7"></td>
+      </tr>
+      <tr onclick="$( '#8' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">8.</th>
+        <td id="text8"></td>
+      </tr>
+      <tr onclick="$( '#9' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">9.</th>
+        <td id="text9"></td>
+      </tr>
+      <tr onclick="$( '#10' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">10.</th>
+        <td id="text10"></td>
+      </tr>
+      <tr onclick="$( '#11' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">11.</th>
+        <td id="text11"></td>
+      </tr>
+      <tr onclick="$( '#12' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">12.</th>
+        <td id="text12"></td>
+      </tr>
+      <tr onclick="$( '#13' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">13.</th>
+        <td id="text13"></td>
+      </tr>
+      <tr onclick="$( '#14' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">14.</th>
+        <td id="text14"></td>
+      </tr>
+      <tr onclick="$( '#15' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">15.</th>
+        <td id="text15"></td>
+      </tr>
+      <tr onclick="$( '#16' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">16.</th>
+        <td id="text16"></td>
+      </tr>
+      <tr onclick="$( '#17' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">17.</th>
+        <td id="text17"></td>
+      </tr>
+      <tr onclick="$( '#18' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">18.</th>
+        <td id="text18"></td>
+      </tr>
+      <tr onclick="$( '#19' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">19.</th>
+        <td id="text19"></td>
+      </tr>
+      <tr onclick="$( '#20' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">20.</th>
+        <td id="text20"></td>
+      </tr>
+      <tr onclick="$( '#21' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">21.</th>
+        <td id="text21"></td>
+      </tr>
+      <tr onclick="$( '#22' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">22.</th>
+        <td id="text22"></td>
+      </tr>
+      <tr onclick="$( '#23' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">23.</th>
+        <td id="text23"></td>
+      </tr>
+      <tr onclick="$( '#24' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">24.</th>
+        <td id="text24"></td>
+      </tr>
+      <tr onclick="$( '#25' ).toggleClass( 'success-color' );" class="statement">
+        <th class="text-center" scope="row">25.</th>
+        <td id="text25"></td>
+      </tr>
+    </tbody>
+  </table>
+</div> 
+<!-- Modal -->
+<div class="modal fade mt-4" id="Modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Info</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Kalle Anka bingo spelas med en slumpmässig lista med påståenden som är kopplad till en bingobricka. 
+        </p>
+        <p>
+          När ett påstående sker trycker man på den i listan så den blir grön, samtidigt så blir bingorutan med samma nummer också grön.
+        </p>
+        <p>
+          Målet är såklart att få bingo.
+        </p>
+        <p>
+          Om man vill ha en ny bricka så kan man trycka på refresh knappen eller refresha hela sidan.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript">
+    $( function() {
+      $('tr.statement').click( function() {
+        $(this).toggleClass("success-color");
+      } );
+    } );
+
+    $(function() {
+      var Array = [
+      "Nån hyschar folk att vara tysta",
+      "Nån klagar över censur då Dockan inte är med",
+      "Nån lägger en onödig politisk kommentarar",
+      "Nån klagar på årets julvärd",
+      "Nån säger \"det var bättre förr\"",
+      "Nån har ätit för mycket julmat och/eller julgodis och jämrar sig över det",
+      "Nån klagar på felaktig mängd snö ute",
+      "\"Det är Robin Hood jag vill ha\"",
+      "Nån somnar under Kalle Anka",
+      "\"Öh, öh, öh, ha den äran\"",
+      "Nån klagar att det var bättre förr när de nya filmerna visas",
+      "Nån imiterar mössen med ljus röst när Askungen visas",
+      "\"Hå hå sån målarfärg skulle man ha\"",
+      "Julvärden säger \"Kalle anka och hans vänner\"",
+      "De vuxna bryr sig mer om Kalle Anka än barnen",
+      "Nån kommenterar på att nån kollar på mobilen istället för på tv",
+      "\"Ara-papa-papa-papa-papa-par-i-a!\"",
+      "\"Här kommer din favoritdel [valfri familjemedlem]\"",
+      "\"Åh nej det är baloo\"",
+      "Säger aj när Ferdinand sätter sig på blommorna",
+      "\"När jag var liten var det här enda gången man fick se på tecknat\"",
+      "Nån imiterar kockarna i lady och lufsen",
+      "Nån nyser",
+      "Någon klagar över censur när docckan inte är med",
+      "\"Höhö, det är ju jag som kör!\"",
+      "Det tar  mindre än en minut från programmets start innan någon lägger den första kommentaren",
+      "Sista pralinen i Aladdinaskens första lager ligger orörd i mer än 5 minuter",
+      "Någon blir tvungen att sitta på golvet då alla sittplatser är tagna",
+      "\"Nåja, vad är väl en bal på slottet\"",
+      "Någon försöker sjunga med",
+      "Någon kopplar en händelse i programmet till en personlig anekdot som de berättar varje år",
+      "Någon får en hostattack",
+      "\"Jag har sett det här X gånger och det slutar aldrig vara roligt!\""
+    ];
+    Array.sort(function() { return 0.5 - Math.random() });
+    document.getElementById("text1").innerHTML = Array[0];
+    document.getElementById("text2").innerHTML = Array[1];
+    document.getElementById("text3").innerHTML = Array[2];
+    document.getElementById("text4").innerHTML = Array[3];
+    document.getElementById("text5").innerHTML = Array[4];
+    document.getElementById("text6").innerHTML = Array[5];
+    document.getElementById("text7").innerHTML = Array[6];
+    document.getElementById("text8").innerHTML = Array[7];
+    document.getElementById("text9").innerHTML = Array[8];
+    document.getElementById("text10").innerHTML = Array[9];
+    document.getElementById("text11").innerHTML = Array[10];
+    document.getElementById("text12").innerHTML = Array[11];
+    document.getElementById("text13").innerHTML = Array[12];
+    document.getElementById("text14").innerHTML = Array[13];
+    document.getElementById("text15").innerHTML = Array[14];
+    document.getElementById("text16").innerHTML = Array[15];
+    document.getElementById("text17").innerHTML = Array[16];
+    document.getElementById("text18").innerHTML = Array[17];
+    document.getElementById("text19").innerHTML = Array[18];
+    document.getElementById("text20").innerHTML = Array[19];
+    document.getElementById("text21").innerHTML = Array[20];
+    document.getElementById("text22").innerHTML = Array[21];
+    document.getElementById("text23").innerHTML = Array[22];
+    document.getElementById("text24").innerHTML = Array[23];
+    document.getElementById("text25").innerHTML = Array[24];
+    });
+  </script>
+
+</body>
+</html>
